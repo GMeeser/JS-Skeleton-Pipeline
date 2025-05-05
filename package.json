@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run development",
+    "development": "mix",
+    "start": "mix watch",
+    "hot": "mix watch --hot",
+    "dist": "npm run production",
+    "build": "npm run production",
+    "production": "mix --production"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^6.22.1"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.27.1",
+    "eslint": "*",
+    "eslint-plugin-jest": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-standard": "*",
+    "eslint-webpack-plugin": "*",
+    "laravel-mix": "*"
+  }
+}

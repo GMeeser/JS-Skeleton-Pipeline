@@ -1,0 +1,38 @@
+/* @see http://eslint.org/docs/rules/ */
+
+{
+	"root": true,
+	"parser": "@babel/eslint-parser",
+	"plugins": [
+		"@babel"
+	],
+	"extends": [
+	],
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"requireConfigFile": false
+	},
+	"globals": {
+		"wp": true,
+		"wpApiSettings": true,
+		"window": true,
+		"document": true,
+		"FormData" : true,
+		"jQuery" : true,
+		"ajaxObjectWpanel" : true,
+		"React": true,
+		"ajaxurl": true
+	},
+	"settings": {
+		"react": {
+			"pragma": "wp",
+			"version": "16.6.3" /* Current dependency version for WordPress */
+		}
+	},
+	"rules": {
+	  "arrow-parens": ["error", "as-needed"]
+	}
+}
